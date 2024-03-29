@@ -3,7 +3,9 @@ package se.salt.precourse.firstjavaapp;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Component;
 
+@Component
 public class StartDateHandler {
 
     public long daysToCourseStart(String startDateInput) {
